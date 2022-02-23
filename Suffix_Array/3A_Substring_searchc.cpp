@@ -1,3 +1,33 @@
+// https://codeforces.com/edu/course/2/lesson/2/3/practice/contest/269118/problem/A
+// Implement the algorithm that was discussed in the lecture
+// Given a string t and n queries, each query is a string s_t. For each request you need to determine 
+// whether the string s_i occurs as a substring in t.
+
+// Input:
+//  The first line of input contains the string t (1 <= |t| <= 300 000)
+//  The second line contains as integer n, the number of queries (1 <= n <= 300 000). 
+//  The following n lines contain one non-empty line s_i each. 
+//  The sum of the lengths of all strings s_t does not exceed 300 000
+//  All strings consist of lowercase English letters
+
+// Output
+// For each request print "Yes". If the string s_i occurs in t, and "No" otherwise
+
+// Example:
+//  Input:
+//   ababba
+//   3
+//   ba
+//   baba
+//   abba
+
+//  Output:
+//  Yes
+//  No
+//  Yes
+
+
+
 #include <iostream>
 #include <algorithm>
 #include <string>
